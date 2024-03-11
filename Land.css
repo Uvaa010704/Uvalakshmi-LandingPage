@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.OHZ5udSUGSEmcH8xFQl7oAHaEo&pid=Api&P=0&h=180");
+    background-size: cover;
+}
+
+header {
+    text-align: left;
+    background-color: steelblue;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    width: 30%;
+    background-color: #f4f4f413;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    background-color:steelblue;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
